@@ -2,7 +2,7 @@
 
 Welcome to the coding test for the Hutch Front End Developer position. In this repository, you'll find a very bare bones Angular SPA containing some interfaces from one of our games and some services to load mock data that fulfils the interface contracts.
 
-Working in the branch you have been assigned, we would like you to work through the following tasks: 
+We would like you to work through the following tasks: 
 
 ## Displaying the PortalSync data
 
@@ -18,7 +18,7 @@ We would like you to provide a clean, fast, user-friendly interface for loading 
 * GoogleReceiptId (non-unique, 1-many relationship)
 * Social Name (non-unique, 1-many relationship)
 
-You don't need to implement the search (just load the mock data) but we would like to see how you would present this form and the options returned by it.
+You don't need to implement the search (just load the mock data) but we would like to see how you would present this form and the options returned by it. We have started you off with a very basic UserComponent that displays this data in a minimal format, but would like to see how you would improve this display.
 
 You don't need to implement all the properties of the `PortalSync` object, but enough that we can see how you would choose to lay out various sizes of arbitrary data about a user.
 
@@ -44,5 +44,5 @@ We would like you to provide a mechanism to store a granted token and pass it to
 
 The admin portal is for more than just loading a user's data. We use it to configure and schedule offers and events, A/B test data, examine logs, update localizations etc. We currently host three separate environments - Development, Test and Production, each with its own admin portal. 
 
-We would like you to provide a home page that makes it easy for a user to find the desired functionality, and to easily tell which enviroment they are operating on
+We would like you to provide a home page that makes it easy for a user to find the desired functionality, and to easily tell which enviroment they are operating on.
 
