@@ -1,0 +1,133 @@
+.panel-default{
+border: none !important;
+}
+
+.panel-default>.panel-heading
+{
+    text-align: center !important;
+    color: white !important;
+    background-color: #356d9c !important;
+    border: none !important;
+}
+
+.panel-default>.panel-heading > h1
+{
+        font-weight: bold !important;
+}
+
+h2{
+    background: #174d71;
+    padding: 15px;
+    border-bottom: 4px solid #010508;
+    margin-top: 44px;
+}
+
+.panel-default>.panel-body
+{
+    background: #428bca !important;
+    color: #ffffff !important;
+    padding: 10px 59px;
+}
+
+
+
+form{
+    width: 100% !important;
+    min-width: 100%;
+}
+
+.form-group
+{
+    min-width: 100% !important;
+}
+
+input, label, button
+{
+    font-size: 18px !important;
+    font-weight: lighter !important;
+    height: 50px !important;
+}
+
+label
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input
+{
+
+    box-shadow: 0px 0px 5px rgb(81, 87, 90) !important;
+    border: 1px solid #1e415f !important;
+    border-radius: 3px !important;
+    color: #418bca;
+    font-weight: normal !important;
+}
+
+
+button
+{
+    color: #cbd4dc !important;
+    background-color: #1663a5 !important;
+    box-shadow: 3px 3px 12px #163b5a !important;
+    border: 2px solid #3893e0 !important;
+    border-radius: 3px !important;
+    padding: 0px 24px !important;
+    margin: 3px;
+
+}
+
+button:hover, input:hover
+{
+    box-shadow: none !important;
+    border: 2px solid #124674 !important;
+}
+table{
+    font-size: 18px;
+}
+
+table > thead > tr > th{
+    background: #316896 !important;
+    border-right: 1px solid #1260a5 !important;
+    color: #c6e3fb !important;
+} 
+
+table > tbody > tr {
+    background: rgb(236 243 249) !important;
+}
+
+table > tbody > tr:nth-child(1){
+    background: white !important;
+}
+
+table > tbody > tr > td {
+    border-right: 1px solid rgb(172, 177, 184) !important;
+}
+
+.table-cars
+{
+    background: #ced8e0;
+    color: black;
+    font-size: 18px !important;
+}
+
+.table-cars > tr > th
+{
+    background: #204565 !important;
+    border-bottom: 3px solid #050a0e;
+    color: rgb(226, 226, 226);
+    padding: 20px 10px;
+}
+
+.table-cars >  tr > td
+{
+    padding: 10px !important;
+}
+
+.table-cars >  tr > td > h4
+{
+    font-size: 18px;
+    color: #214565;
+    font-weight: bold;
+}
+
+

@@ -1,0 +1,50 @@
+h1{
+    background: #516573;
+    height: -webkit-fill-available;
+    height: 60px;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+div{
+    background: #000000;
+    padding: 30px
+}
+
+@media (max-width: 576px) {  
+    .panel-default>.panel-body{
+    padding: 10px 10px;
+    }
+
+    button
+    {
+        padding: 0px 6px !important;
+        margin: 3px;
+        font-size: 10px;
+    }
+
+    table
+    {
+        display: block;
+    }
+
+        input, label, button
+    {
+        font-size: 12px !important;
+        height: 30px !important;
+    }
+
+    h1
+    {
+        font-size: 17px;
+    }
+
+    h2
+    {
+        font-size: 14px;
+    }
+
+    
+}
